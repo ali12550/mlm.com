@@ -1,0 +1,1552 @@
+* {
+    padding   : 0px;
+    margin    : 0px;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+
+.header_main {
+    background: rgb(21, 21, 88);
+    position  : relative;
+    z-index   : 999;
+}
+
+.header_title img {
+    width: 10rem;
+}
+
+.header_right {
+    position   : absolute;
+    top        : 0;
+    height     : 100%;
+    display    : flex;
+    align-items: center;
+    right      : 0;
+    font       : inherit;
+}
+
+.header_right span {
+    font-weight: 700;
+    font-size  : 1.2rem;
+}
+
+/* section slider  start*/
+.section_slider {
+    background : #232162;
+    padding-top: 80px !important;
+
+}
+
+.carousel-item img {
+    border-radius: 1rem !important;
+}
+
+/* section slider  end*/
+/* section footer  start*/
+.section_footer {
+    background: rgb(21, 21, 88);
+    z-index   : 999;
+    box-shadow: 0 .4rem 1rem rgb(128, 128, 136) !important;
+    bottom    : 0;
+    width     : 100%;
+}
+
+.section_footer p {
+    margin-bottom: 0px !important;
+}
+
+.section_footer p {
+
+    color: #7676b0;
+}
+
+.section_footer .fa {
+    font-size: 23px;
+    color    : #7676b0;
+}
+
+.section_footer .fa-home {
+    color: #b1b1f8 !important;
+}
+
+.img_footer_grab {
+    margin-top: -46px;
+    width     : 3.6rem;
+}
+
+/* section footer  end*/
+/* section payments  start*/
+.section_payments {
+
+    background: rgb(21, 21, 88);
+}
+
+.payments .deposit {
+    flex           : 1;
+    text-align     : center;
+    height         : 4.866667rem;
+    border-radius  : 0.133333rem;
+    display        : flex;
+    align-items    : center;
+    box-shadow     : 0.026667rem 0.026667rem 0.106667rem rgb(51 51 51 / 30%);
+    box-sizing     : border-box;
+    padding-left   : 0.9rem;
+    background     : url("../img/Deposit_img.png") no-repeat;
+    background-size: 100% 100%;
+    text-shadow    : 0.026667rem 0.026667rem 0.026667rem rgb(0 0 0 / 50%);
+    font-size      : 1.2rem;
+    color          : white;
+    font-weight    : 700;
+
+
+}
+
+.payments .widthdraw {
+    flex           : 1;
+    text-align     : center;
+    height         : 4.866667rem;
+    border-radius  : 0.133333rem;
+    display        : flex;
+    align-items    : center;
+    box-shadow     : 0.026667rem 0.026667rem 0.106667rem rgb(51 51 51 / 30%);
+    box-sizing     : border-box;
+    padding-left   : 0.9rem;
+    background     : url("../img/Withdraw.png") no-repeat;
+    background-size: 100% 100%;
+    text-shadow    : 0.026667rem 0.026667rem 0.026667rem rgb(0 0 0 / 50%);
+    font-size      : 1.2rem;
+    color          : white;
+    font-weight    : 700;
+
+}
+
+.section_services {
+    background-color: rgb(21, 21, 88);
+    border          : none;
+    color           : #fff;
+}
+
+.section_services img {
+    width     : 4rem;
+    object-fit: cover;
+}
+
+.section_services p {
+    font-size: 13px;
+}
+
+
+
+
+
+/* upgrade services slider */
+
+.swiper-slide{
+    width: 33.33% !important;
+}
+/* section payments  end*/
+
+/* section_bussiness_hall section start */
+.section_bussiness_hall {
+    margin-bottom   : 71px;
+    background-color: rgb(21, 21, 88);
+    overflow        : hidden !important;
+}
+
+.section_bussiness_hall .card {
+    background-color: #2e2870;
+    margin-top: 20px !important;
+}
+
+.img_bzns_hal {
+    border-top-right-radius   : 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.img_bzns_hal img {
+    width : 100%;
+    height: 105px;
+}
+
+.section_bussiness_hall .card-body p {
+    line-height: 15px;
+    color      : #9d9dd6;
+}
+
+.section_bussiness_hall .card-body .card-title {
+    font-size: 1.1rem;
+      
+}
+
+.user_comission_box {
+  box-shadow: none !important;
+ 
+}
+
+.comission_boxes {
+    background-color: #2c267f;
+    color           : #b8b8ff;
+}
+
+.comission_img {
+    display    : grid;
+    place-items: center;
+    height     : fit-content;
+    width: 93px;
+    height: 93px;
+
+}
+.comission_boxes img {
+    object-fit: cover;
+    width     : 86px;
+    height    : 86px;
+    border-radius: 50%;
+}
+
+.hr_grand {
+    height  : 88px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hr_grand::after {
+    position        : absolute;
+    content         : "";
+    height          : 1px;
+    background-color: #b8b8ff;
+    bottom          : 0;
+    left            : 0;
+    right           : 0;
+    width           : 2000px;
+
+}
+
+
+/* section_bussiness_hall section  end*/
+
+/* login page start */
+
+.register_wrap {
+    margin-bottom: 150px;
+}
+
+.wrapper_login .form-field input {
+    width: 80%;
+}
+
+.section_login .login-wrap {
+    height         : 300px;
+    background     : #5028c1;
+    background-size: 100% 100%;
+}
+
+.login-wrap .lang_wrap {
+    height       : 0.8rem;
+    padding-top  : 0.266667rem;
+    direction    : rtl;
+    padding-right: 0.533333rem;
+}
+
+.lang_wrap img {
+    padding: 1rem;
+}
+
+
+
+
+
+.wrapper_login {
+    max-width: 396px;
+
+    margin-top  : 160px;
+    margin-left : auto;
+    margin-right: auto;
+
+    padding         : 28px 11px 11px 11px;
+    background-color: white;
+    border-radius   : 10px;
+
+}
+
+.text-reg {
+    color: #ff9a23;
+}
+
+.box-reg {
+    margin-left     : auto;
+    margin-right    : auto;
+    margin-bottom   : 120px;
+    width           : 70%;
+    background-color: #fff;
+    border-radius   : 0 0 10px 10px;
+}
+
+.box-reg a {
+    vertical-align: super;
+}
+
+.wrapper_login .logo img {
+    width: 12rem;
+
+
+}
+
+
+
+.wrapper_login .form-field input::placeholder {
+
+    font-size  : 15px;
+    font-weight: 600;
+    color      : rgba(112, 110, 110, 0.682);
+}
+
+.wrapper_login .form-field input {
+    /* width     : 100%; */
+    display   : block;
+    border    : none;
+    outline   : none;
+    background: none;
+    font-size : 1.2rem;
+    color     : #666;
+    padding   : 12px 12px 16px 11px;
+    height    : 100%;
+
+}
+
+
+.wrapper_login .form-field {
+    padding-left    : 10px;
+    margin-bottom   : 20px;
+    border-radius   : 25px;
+    background-color: #eef1f7;
+}
+
+.wrapper_login .form-field .fas {
+    font-size: 20px;
+}
+
+.section_register .fa-project-diagram {
+    color       : #b7a0d0;
+    font-size   : 15px;
+    padding-left: 10px;
+
+}
+
+.wrapper_login .fa-key,
+.wrapper_login .fa-user {
+    color       : #b7a0d0;
+    font-size   : 21px;
+    padding-left: 10px;
+
+}
+
+.wrapper_login .btn {
+    box-shadow      : none;
+    width           : 100%;
+    font-weight     : 700;
+    background-color: #5028c1;
+    color           : #fff;
+    border-radius   : 25px;
+    box-shadow      : 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+    font-size     : 1.5rem;
+    display       : grid;
+    place-items   : center;
+
+}
+
+.rem_password {
+    color: #ccc;
+}
+
+.wrapper_login .btn:hover {
+    background-color: #039BE5;
+}
+
+.wrapper_login a {
+    text-decoration: none;
+    font-size      : 1rem;
+    color          : #5028c1;
+}
+
+.wrapper_login a:hover {
+    color: #039BE5;
+}
+
+
+/* login page end */
+
+/* register page start */
+
+
+
+.section_register .wrapper_login {
+    margin-top: 70px !important;
+}
+
+.section_register .login-wrap {
+    height         : 300px;
+    background     : #5028c1;
+    background-size: 100% 100%;
+}
+
+.reg_welcome {
+    line-height   : .746667rem;
+    font-size     : 1.8rem;
+    font-weight   : 700;
+    padding-top   : 10px;
+    padding-bottom: 10px;
+}
+
+.select_num {
+    background-color: #eef1f7;
+    width           : 150px;
+}
+
+.form-select:focus {
+    /* border-color: #86b7fe; */
+    outline   : 0;
+    box-shadow: none !important;
+}
+
+.verify_code {
+    border-radius: 20px;
+}
+
+.regio_wrap .active_regio {
+    display        : inline-flex;
+    justify-content: center;
+    align-items    : center;
+    flex-wrap      : nowrap;
+    padding        : 0 0.133333rem;
+}
+
+.regio_wrap .flag {
+    display   : inline-block;
+    position  : relative;
+    width     : 0.426667rem;
+    height    : 0.293333rem;
+    background: url("../img/bussiness_hall.jpg") no-repeat;
+}
+
+/* register page end */
+/* Online order page start */
+.header_online {
+    z-index         : 999;
+    background-color: #FFFFFF;
+}
+
+.section_online {
+    margin-bottom: 90px;
+    padding-top  : 140px;
+}
+
+.order_description {
+    background-color: #d9e5f9;
+}
+
+.cust_1 {
+    border-top-right-radius: 2rem;
+    font-weight            : 600;
+}
+
+.cust_2 {
+    border-top-left-radius: 2rem;
+    font-weight           : 600;
+}
+
+/* Online order page end */
+/* Online Deposit page start */
+.header_deposit span {
+    font-weight: 700;
+
+}
+
+.header_deposit {
+    z-index: 999;
+}
+
+.header_deposit input {
+    width : 44px;
+    height: 17px;
+}
+
+.header_deposit .fa-file {
+    font-size: 23px;
+    color    : #434242;
+}
+
+.header_deposit .chevron-left {
+    width: 19px;
+}
+
+.header_deposit_usd span {
+    font-weight: 700;
+
+}
+
+.header_deposit_usd {
+    z-index: 999;
+}
+
+.header_deposit_usd input {
+    width        : 44px;
+    height       : 17px;
+    border-radius: 0.053333rem;
+    background   : #eef1f7;
+}
+
+
+.header_deposit_usd .chevron-left {
+    width: 19px;
+    float: left !important;
+}
+
+.usdt_top_up button {
+    border    : .026667rem solid #ff9a23;
+    /* padding: 5px 36%; */
+    color     : #ff9a23;
+    width     : 3.8rem;
+}
+
+
+.usdt_field input {
+    border-left : 1px solid #f8f9fa !important;
+    padding-left: 0px !important;
+}
+
+.usdt_field .input-group-text {
+    display         : flex;
+    align-items     : center;
+    padding-right   : 0.375rem;
+    font-size       : 1rem;
+    font-weight     : 400;
+    line-height     : 1.5;
+    color           : #212529;
+    text-align      : center;
+    white-space     : nowrap;
+    background-color: #eef1f740 !important;
+    border          : 1px solid #ced4da;
+    border-radius   : 0.375rem;
+}
+
+.section_deposit_usdt {
+    background-color: #eef1f7;
+    padding-top     : 94px;
+}
+
+.section_deposit_usdt h5 {
+    font-weight: 600;
+    font-size  : 1.2rem;
+}
+
+.section_widhdraw button,
+.section_deposit_usdt .confirm button {
+    padding         : 0.8rem 4rem;
+    font-size       : 1.2rem;
+    font-weight     : 700;
+    border-radius   : 26.64rem;
+    color           : #fff;
+    background-color: #1989fa;
+    border          : 0.026667rem solid #1989fa;
+    text-align      : center;
+}
+
+.com_tip_box p {
+    line-height: 1.3rem;
+}
+
+.explore_box {
+    display: none;
+}
+
+.com_tip_style {
+    display         : inline-flex;
+    justify-content : center;
+    align-items     : center;
+    line-height     : .533333rem;
+    background-color: #ff9a23;
+
+    color                    : #fff;
+    border-bottom-left-radius: 1.3rem;
+    border-top-right-radius  : 1.3rem;
+    box-shadow               : 0.026667rem 0.026667rem 0.106667rem rgb(51 51 51 / 30%);
+    margin-bottom            : 0.266667rem;
+    position                 : relative;
+    min-height               : 0.8rem;
+    text-shadow              : 0 0 0.026667rem rgb(51 51 51 / 80%);
+    font-weight              : 600;
+    box-sizing               : border-box;
+    min-height               : 1.333333rem;
+    line-height              : 2rem;
+    padding                  : 16px 42px;
+}
+
+.com_tip_style::before {
+    content         : "";
+    background-image: url("../img/usd_star_1.png");
+
+    background-size: cover;
+    position       : absolute;
+    width          : 2rem;
+    height         : 2rem;
+    left           : 0.266667rem;
+    top            : 0.16rem;
+}
+
+.com_tip_style::after {
+    content         : "";
+    left            : 2rem;
+    top             : 43%;
+    transform       : scale(.6);
+    background-image: url("../img/usd_star_1.png");
+    background-size : cover;
+    position        : absolute;
+    width           : 2rem;
+    height          : 2rem;
+}
+
+.section_deposit {
+    background-color: #eef1f7;
+    padding-top     : 94px;
+}
+
+.section_deposit button {
+    padding         : 0.5rem 2.6rem;
+    font-size       : 1.2rem;
+    font-weight     : 700;
+    border-radius   : 26.64rem;
+    color           : #fff;
+    background-color: #1989fa;
+    border          : 0.026667rem solid #1989fa;
+    text-align      : center;
+}
+
+.deposit_status button {
+    padding         : 0.1rem 1.2rem;
+    font-size       : 1.2rem;
+    font-weight     : 700;
+    border-radius   : 26.64rem;
+    color           : #fff;
+    background-color: #1989fa;
+    border          : 0.026667rem solid #1989fa;
+    text-align      : center;
+}
+
+.section_deposit p span {
+    font-size: 0.8rem;
+}
+
+/* Online Deposit page end */
+/* cONFIRM AMOUNT page start */
+.content .copy1 {
+    font-size    : 0.7rem;
+    font-weight  : 400;
+    width        : 7.3rem;
+    height       : 1.6rem;
+    line-height  : 23px;
+    margin-top   : 0.05rem;
+    color        : #FFFFFF;
+    text-align   : center;
+    background   : #26A17B;
+    border-radius: 0.5rem;
+    margin       : auto;
+}
+
+.channelType {
+    font-size: 00.9rem;
+}
+
+.mainNetwork {
+    font-size  : 1rem;
+    font-weight: 700;
+    color      : #1E98D7;
+    margin-left: 1.4rem;
+}
+
+.content #address {
+    font-size  : 1rem;
+    font-weight: 700;
+
+}
+
+.content .copy2 {
+    width        : 100%;
+    height       : 3.4rem;
+    font-size    : 1.2rem;
+    font-weight  : 700;
+    margin-top   : 1rem;
+    color        : #FFFFFF;
+    text-align   : center;
+    background   : #26A17B;
+    border-radius: 10px;
+    display      : grid;
+    place-items  : center;
+}
+
+.content .downCount {
+    font-weight  : 400;
+    margin-top   : 0.8rem;
+    font-size    : 13px;
+    margin-bottom: 1.6rem;
+}
+
+.notes,
+.remark {
+    font-size: 13px;
+}
+
+.content .notes .tips-note {
+    font-size    : 1rem;
+    font-weight  : 700;
+    margin-bottom: 1rem;
+
+}
+
+/* cONFIRM AMOUNT page end */
+/* profile page start */
+.vip_img {
+    display         : inline-block;
+    width           : 5rem;
+    height          : 2rem;
+    background-image: url("../img/lvl_1.png");
+    background-size : 100% 100%;
+
+    padding-left: 1.6rem;
+    box-sizing  : border-box;
+    line-height : 2rem;
+    font-size   : 1rem;
+    font-weight : 500;
+    color       : #fff;
+}
+
+.header_profile {
+    z-index         : 999;
+    background-color: #FFFFFF;
+}
+
+.section_profile {
+    padding-top: 6.7rem;
+}
+
+.balance_wrap {
+    position               : relative;
+    height                 : 7.9rem;
+    z-index                : 2;
+    padding                : 1.4rem 2rem;
+    box-sizing             : border-box;
+    border-top-left-radius : 0.266667rem;
+    border-top-right-radius: 0.266667rem;
+    color                  : #7d6450;
+    background             : url("../img/gerenzhongxin_bg.png") no-repeat;
+    background-size        : 100% 100%;
+}
+
+.btns.en_US {
+    display: flex;
+}
+
+.section_profile .container-fluid::after {
+    background: url("../img/rd_profile.png") no-repeat;
+
+    background-size: 100% 100%;
+    content        : "";
+    position       : absolute;
+    z-index        : 2;
+    width          : 100%;
+    height         : 1rem;
+    left           : 0;
+    bottom         : -0.026667rem;
+    pointer-events : none;
+}
+
+ .balance_top .btns .btn_deposit {
+    padding      : 0.5rem 1.2rem;
+    border-radius: 1rem;
+    display      : inline-block;
+    background   : #fcb748;
+    color        : #fff;
+    text-align   : center;
+    font-weight  : 600;
+    box-shadow   : 0.026667rem 0.026667rem 0.106667rem rgb(51 51 51 / 30%);
+    min-width    : 1.7rem;
+
+}
+
+.balance_top .btns .btn_withdraw {
+    background : #4187f9;
+    margin-left: 0.32rem;
+    padding      : 0.5rem 1.2rem;
+    border-radius: 1rem;
+    display      : inline-block;
+    color        : #fff;
+    text-align   : center;
+    font-weight  : 600;
+    box-shadow   : 0.026667rem 0.026667rem 0.106667rem rgb(51 51 51 / 30%);
+    min-width    : 1.7rem;
+}
+
+.menus {
+    background-color: #eef1f7;
+}
+
+.menu_layout {
+
+    display   : inline-block;
+    width     : 33.33%;
+    box-sizing: border-box;
+
+}
+
+.menu_layout {
+    font-size: calc(1rem - 2px) !important;
+
+}
+
+.menu_layout img {
+    width: 3.7rem;
+}
+
+.balance_inner img {
+    width : 1.2rem;
+    height: 20px;
+}
+
+.balance_text {
+    color: #7d6450;
+}
+
+.balance_inner {
+    display: none;
+}
+
+/* profile page end */
+/* Width draw page start */
+.section_widhdraw {
+    padding-top: 6rem;
+
+}
+
+.container_widthdraw {
+    max-width: 93%;
+
+    margin-left        : auto;
+    margin-right       : auto;
+    padding            : 28px 11px 11px 11px;
+    background-color   : white;
+    /* border-radius   : 10px; */
+
+}
+
+.text_secondary {
+    font-size  : 14px;
+    font-weight: 700;
+    color      : #344059;
+}
+
+.text_primary {
+    font-size  : 17px;
+    font-weight: 700;
+    color      : #344059;
+}
+
+.widthdraw_password .password {
+    /* height: 2.3rem; */
+    background: #eef1f7;
+}
+
+.widthdraw_field .ent_amoutn {
+    border          : unset !important;
+    background-color: #eef1f7;
+    border-radius   : unset !important;
+}
+
+.widthdraw_field .ent_amoutn::placeholder {
+    font-size: 12px !important;
+}
+
+.widthdraw_password .password input {
+    border       : unset !important;
+    background   : #eef1f7;
+    border-radius: unset !important;
+    padding: unset !important;
+}
+
+/* Width draw page end */
+.chevron-left-bank {
+    float: left;
+}
+
+.bankcard_wrap {
+    background-color: #eef1f7;
+    padding-top     : 6rem;
+    padding-bottom  : 2rem;
+}
+
+.common_submit {
+    width        : 60%;
+    box-shadow   : 1rem 1rem 1rem rgb(51 51 51 / 30%);
+    padding      : 0.3rem 0;
+    color        : #fff;
+    background   : #5028c1;
+    font-weight  : 600;
+    text-align   : center;
+    border-radius: 1rem;
+    margin       : 1rem auto 0;
+    transition   : all .5s;
+    margin-bottom: 1.2rem;
+}
+
+/* withdrawal method  start*/
+.identify_noti .dropdown-toggle,
+.identify_noti .input-group-text {
+    font-size: 12px !important;
+    width    : 25%;
+}
+
+.withdrawal_wrap {
+    background-color: #eef1f7;
+}
+
+.header_bankcard {
+    z-index: 999;
+}
+
+.identify_noti input::placeholder {
+    font-size  : 13px;
+    font-weight: 600;
+}
+
+.vh_top {
+    height: 50px;
+}
+
+.identity_container .confirm_draw button {
+    padding         : 0.6rem 4.4rem;
+    font-size       : 1.2rem;
+    font-weight     : 700;
+    border-radius   : 26.64rem;
+    color           : #fff;
+    background-color: #5028c1;
+    border          : 0.026667rem solid #5028c1;
+    text-align      : center;
+}
+
+/* withdrawal method  end*/
+/* Personal Info   start*/
+.section_p_info {
+    background-color: #eef1f7;
+}
+
+.header_p_info {
+    z-index         : 999;
+    background-color: #FFFFFF;
+}
+
+.head_partriat_img {
+    width: 30%;
+}
+
+.personal_sec_text {
+    color    : #969799;
+    font-size: 17px;
+}
+
+.per_primary_text {
+    font-size: 1.1rem;
+    color    : #323233;
+}
+
+/* Personal Info   end*/
+
+/* persoanl info start */
+.section_chng_pswd {
+    background-color: #eef1f7;
+}
+
+.select_img_per {
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+.confirm_password button,
+.sel_img_btn button {
+    padding         : 0.6rem 4.4rem;
+    font-size       : 1.2rem;
+    font-weight     : 700;
+    border-radius   : 26.64rem;
+    color           : #fff;
+    background-color: #5028c1;
+    border          : 0.026667rem solid #5028c1;
+    text-align      : center;
+}
+
+.sel_img_btn {
+    width         : 100%;
+    bottom        : 0;
+    border-top    : 1px solid rgba(128, 128, 128, 0.467);
+    padding-top   : 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.check_img {
+    margin-top: -29px;
+    right     : 0;
+}
+
+.img_pos {
+    width     : 6rem;
+    margin    : 0 auto;
+    text-align: center;
+}
+
+.chang_pass {
+    font-size: 12px;
+}
+
+.section_trans_pswd {
+    background-color: #eef1f7;
+}
+
+.trans_chng_password input {
+    border: unset !important;
+
+    border-radius: unset !important;
+}
+
+/* persoanl info end */
+/* Order detail start */
+.order_top {
+    height             : fit-content;
+    background         : url(../img/rd_profile.png) #5028c1;
+    background-position: left 0 bottom 0;
+    background-repeat  : no-repeat;
+    background-size    : contain;
+}
+
+.commission_table {
+    color    : #7886a6;
+    font-size: calc(1.3rem - 7px) !important;
+}
+
+.record_tab {
+    background-color: #eef1f7;
+}
+
+.all_order_box img {
+    width        : calc(23% - 15px);
+    object-fit   : cover;
+    height       : 3rem;
+    border-radius: 10%;
+    box-shadow   : -2px 2px 4px -2px rgba(0, 0, 0, 0.72);
+}
+
+.all_order_box {
+    color: #999;
+}
+
+.order_inner {
+    color: #5028c1;
+}
+
+.available_assests {
+    z-index: 999;
+}
+
+/* Style the tab order start */
+.tab_orders {
+
+    border-bottom   : 1px solid #e6e6e7;
+    background-color: #fff;
+    width           : 100%;
+
+}
+
+.section_account_detail {
+    background-color: #eef1f7;
+}
+
+.section_account_detail .Zebra_DatePicker_Icon_Wrapper {
+    width: 92% !important;
+}
+
+.tab_orders button {
+    background-color: inherit;
+    float           : left;
+    border          : none;
+    outline         : none;
+    cursor          : pointer;
+    width           : 25%;
+    height          : 45px;
+    color           : #999;
+}
+
+.tab_orders button.active {
+    color        : #5028c1;
+    border-bottom: 2px solid currentColor;
+    width        : 25%;
+    height       : 43px !important;
+    color        : #5028c1;
+}
+
+.tabcontent_order {
+    display: none;
+    padding: 6px 12px;
+
+}
+
+/* Order detail end */
+/* account detail start */
+
+.tab_account {
+
+    border-bottom   : 1px solid #e6e6e7;
+    background-color: #fff;
+    width           : 100%;
+
+}
+
+
+.tab_account button {
+    background-color: inherit;
+    float           : left;
+    border          : none;
+    outline         : none;
+    cursor          : pointer;
+    width           : 25%;
+    height          : 45px;
+    color           : #999;
+}
+
+
+.tab_account button.active {
+    color        : #5028c1;
+    border-bottom: 2px solid currentColor;
+    width        : 25%;
+    height       : 43px !important;
+    color        : #5028c1;
+}
+
+
+.tabcontent_account {
+    display: none;
+    padding: 6px 12px;
+
+}
+
+.account_tab {
+    background-color: #eef1f7;
+}
+
+.select_day {
+    position: absolute;
+    z-index : 1;
+}
+
+.section_account_detail .form-control {
+    border-top-right-radius   : 2.8rem !important;
+    border-bottom-right-radius: 2.8rem !important;
+    border                    : 1px solid #4187f9;
+
+}
+
+.search_account {
+    margin-left: -50px !important;
+    background : #4187f9;
+    padding    : 5px 12px !important;
+    z-index    : 3 !important;
+    color      : #FFFFFF;
+}
+
+.report_primary {
+    font-size: calc(1.3rem - 9px) !important;
+}
+
+.report_secondary {
+    color: #4187f9;
+}
+
+.t_box {
+    background-color: #cfe4e98d;
+    width           : 45.666667%;
+}
+
+/* account detail end */
+/* grab page start */
+.section_grab_container {
+    background-color: #eef1f7;
+}
+
+.grab_box:after {
+    content        : "";
+    position       : absolute;
+    top            : 0;
+    left           : 0;
+    right          : 0;
+    bottom         : 0;
+    background     : url(../img/grab_box.png) no-repeat;
+    background-size: 100% 100%;
+    z-index        : 1;
+}
+
+
+.animation_layout {
+    box-shadow     : 0.026667rem 0.026667rem 0.106667rem rgb(51 51 51 / 30%);
+    border-radius  : 0.266667rem;
+    height         : 14rem;
+    padding        : 0.346667rem 0.266667rem 0.32rem;
+    box-sizing     : border-box;
+    position       : relative;
+    background     : url(../img/grab_uper.png) no-repeat;
+    background-size: 100% 100%;
+    position       : relative;
+}
+
+/* .animation_layout:after {
+        content        : "";
+        position       : absolute;
+        background     : url(../img/Deposit_img.png) no-repeat;
+        left           : 31%;
+        right          : 0;
+        top            : 40%;
+        bottom         : 38px;
+        margin         : auto;
+        z-index        : 1;
+        background-size: 50% 50%;
+    } */
+
+.animatin_item {
+    position   : relative;
+    min-width  : 2rem;
+    width      : 20%;
+    text-align : center;
+    padding-top: 0.533333rem;
+    height     : 44.266667rem;
+}
+
+.animatin_item .img_box:first-child,
+.animatin_item .img_box:last-child {
+    position : absolute;
+    left     : 50%;
+    transform: translateX(-50%);
+}
+
+.animatin_item .img_box {
+    padding: 0.133333rem 0;
+    width  : 5.6rem;
+    height : 5.92rem;
+    margin : 0 auto;
+}
+
+.animation_layout .grab_box {
+    overflow       : hidden;
+    justify-content: space-between;
+    height         : 100%;
+    position       : relative;
+    justify-content: space-evenly;
+    display        : flex;
+}
+
+.img_box img {
+    width  : 3.8rem;
+    height : 5.92rem;
+    display: inline-block;
+
+    object-fit: contain;
+}
+
+.counterr {
+    animation: mymove 1s infinite;
+
+    animation-timing-function: linear;
+    text-align               : center;
+    font-size                : 2.2rem;
+    font-weight              : 400;
+    z-index                  : 999;
+    color                    : red;
+
+
+    top   : 31%;
+    bottom: 83px;
+    left  : 106px;
+    right : 94px;
+    margin: auto;
+    width : 30px;
+    height: 30px;
+}
+
+
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 20px;
+    }
+}
+
+.exclusive_text {
+    color: #454f65;
+}
+
+.upgrade_grab {
+    background-color: #fcb748;
+}
+
+.auto_grab {
+    background-color: #4187f9;
+}
+
+.achievement_container {
+    color: #454f65;
+}
+
+.grab_primary {
+    color: #344059;
+}
+
+
+.field-wrapper input {
+    width     : 20% !important;
+    outline   : none !important;
+    border    : none !important;
+    height    : 50px;
+    text-align: center;
+}
+
+/* slot machine */
+
+.icon {
+    width : 54%;
+    height: 70px;
+
+    /* animation: wiggle 0.4s linear infinite; */
+}
+
+.slots {
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    position  : absolute;
+
+    left      : 0;
+    margin-top: -220px;
+    right     : 0;
+    margin    : auto;
+}
+
+.slots .window {
+    position  : relative;
+    height    : 325px;
+    padding   : 0 3px;
+    text-align: center;
+}
+
+.outer-col {
+    width     : 31%;
+    float     : left;
+    margin    : 0 2px;
+    text-align: center;
+}
+
+.slots.col {
+    padding    : 2px;
+    will-change: true;
+
+}
+
+.slots.spinning .outer-col:nth-of-type(2) .col {
+    animation-delay: 0.1s;
+}
+
+.slots.spinning .outer-col:nth-of-type(3) .col {
+    animation-delay: 0.2s;
+}
+
+.slots.spinning .outer-col:nth-of-type(4) .col {
+    animation-delay: 0.3s;
+}
+
+.slots.spinning .outer-col:nth-of-type(5) .col {
+    animation-delay: 0.4s;
+}
+
+.slots.spinning .outer-col:nth-of-type(6) .col {
+    animation-delay: 0.5s;
+}
+
+.slots.spinning .col {
+    animation: scroll 3s cubic-bezier(.5, 0, .5, 1) 1, 3s cubic-bezier(.5, 0, .5, 1) 1;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    90% {
+        transform: translate3d(0, calc(-100% + 328px), 0);
+    }
+
+    100% {
+        transform: translate3d(0, calc(-100% + 332px), 0);
+    }
+}
+
+/* grab page end */
+
+/* announcement page start */
+.section_announcement {
+    background-color: #eef1f7;
+}
+
+.announcement_title {
+    line-height: .8rem;
+    font-weight: 700;
+    font-size  : 1.7rem;
+}
+
+.announcement_title span {
+
+
+    display      : inline-block;
+    height       : 1.3rem;
+    border-right : 3px solid #4187f9;
+    border-radius: 1px;
+    margin-right : 2px;
+}
+
+.announcement_title span:nth-child(3) {
+    border-right-width: 2px;
+}
+
+.announcement_box img {
+    height: 110px;
+    width : 100%;
+}
+
+.announcement_box img.img-height {
+    height: 250px;
+}
+
+/* announcement page end */
+/* frient invitation page start */
+.header_invite {
+    background-image   : url("../img/bg_friends.png") !important;
+    /* background-size : 100% 100%; */
+    z-index            : 999;
+}
+
+.header_top_invitation {
+    position        : fixed;
+    height          : 262px;
+    background-image: url("../img/bg_friends.png") !important;
+    background-size : 100% 100%;
+
+}
+
+.header_invite img {
+    filter: brightness(8.5);
+}
+
+.section_invitation {
+
+    background-color: #eef1f7;
+}
+
+.section_invitation .container-fluid {
+    position        : relative;
+    width           : 85%;
+    margin          : auto;
+    background-color: #eef1f7;
+    padding-bottom  : 30px;
+    border          : 1px solid #d1d4d9;
+    box-shadow      : 3px 10px 36px -4px rgb(0 0 0 / 30%);
+}
+
+.qr_box button {
+    background-color: #4187f9;
+    border          : none !important;
+    outline         : unset;
+    left            : 0;
+    right           : 0;
+    margin          : auto;
+    width           : calc(70% - 17px);
+}
+
+#qr2 img {
+    width : 100%;
+    margin: auto;
+}
+
+.qr_link_box button,
+.qr_code_box button {
+    background-color: #4187f9;
+    padding         : 1px 19px 7px 19px !important;
+}
+
+/* frient invitation page end */
+
+
+
+
+@media screen and (max-width: 420px) {
+
+    .identify_noti .dropdown-toggle,
+    .identify_noti .input-group-text {
+        font-size: 12px !important;
+        width    : 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .common_html_wrap,
+    .Beginner_guide,
+    .menu_layout {
+        font-size: calc(1rem - 4px) !important;
+    }
+
+    .balance_wrap .balance_top .btns>span {
+        padding: 0.5rem 0.2rem;
+        width  : calc(6rem - 6px);
+    }
+
+    .balance_wrap {
+        padding: 1.4rem 1rem;
+    }
+
+    .header_right,
+    .header_right span {
+        font-size: calc(1rem - 5px);
+    }
+
+    .payments span {
+        font-size: calc(1rem - 1px);
+    }
+
+    .section_profile .row {
+        margin: 0px 1rem !important;
+    }
+
+    .upgrade_grab {
+        padding: calc(12px - 4px) !important;
+        width  : 100%;
+    }
+
+    .auto_grab {
+        width  : 100%;
+        padding: calc(12px - 4px) !important;
+    }
+}
